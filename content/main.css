@@ -1,0 +1,98 @@
+/* Created by Paul Gonzalez Becerra */
+
+body	{
+	margin:	0px;
+	background-color:	#00bca4;
+	padding:	0px;
+	color:	#101820;
+	font-family:	helvetica;
+}
+
+p.desc	{
+	padding:	8px 16px;
+}
+
+.content-container	{
+	margin-left:	10%;
+	margin-right:	10%;
+	width:	80%;
+	background-color:	#ffffff;
+	border:	1px solid #101820;
+	border-bottom:	none;
+}
+
+.heading-header	{
+	text-align:	center;
+	font-size:	32px;
+	margin-top:	48px;
+	margin-bottom:	48px;
+}
+
+.navbar	{
+	width:	100%;
+	background-color:	#ffffff;
+	height:	24px;
+	border-bottom:	1px solid #101820;
+}
+
+.navbar .logo	{
+	padding:	4px 0px 0px 16px;
+	display:	block;
+	font-family:	lucida console;
+	font-style:	italic;
+}
+
+.navbar ul	{
+	list-style:	none;
+	margin:	0px;
+	padding:	0px;
+}
+
+.navbar ul li a	{
+	float:	right;
+	display:	block;
+	width:	48px;
+	padding:	4px 16px 0px 16px;
+	text-decoration:	none;
+	color:	#101820;
+}
+
+.navbar ul li a:hover	{
+	color:	#0f0fff;
+}
+
+.form-table	{
+	padding:	32px 8px 32px 8px;
+}
+
+.form-table .cell	{
+	width:	100%;
+	display:	block;
+	text-align:	right;
+	margin-top:	8px;
+	margin-bottom:	8px;
+}
+
+.form-table .cell .input input	{
+	position:	relative;
+	left:	16px;
+	width:	70%;
+	margin-right:	5%;
+}
+
+.good-btn, .bad-btn	{
+	background-color:	#00ccb4;
+	font-size:	20px;
+	border:	1px solid #101820;
+	width:	115px;
+	height:	36px;
+	margin-right:	12px;
+	margin-top:	12px;
+	border-radius:	4px;
+}
+
+.bad-btn	{
+	background-color:	#cfd3ff;
+}
+
+/* End of File */
